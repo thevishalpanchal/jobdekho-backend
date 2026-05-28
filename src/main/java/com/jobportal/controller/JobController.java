@@ -45,7 +45,7 @@ public class JobController {
 			@PathVariable Long id
 
 	) {
-		applicationRepo.deleteByJobId(id);
+		
 		repo.deleteById(id);
 
 	}
