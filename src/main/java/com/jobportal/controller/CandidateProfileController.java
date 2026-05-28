@@ -82,7 +82,7 @@ public class CandidateProfileController {
 
 		
 
-		String uploadDir = "C:/uploads/";
+		String uploadDir = System.getProperty("user.dir")+ "/uploads/";
 
 		File directory = new File(uploadDir);
 
